@@ -8,6 +8,7 @@
 git init
 ```
 <h3>From GitHub</h3>
+
 ```
 git clone https://github.com/my-user/my-repo-name.git
 ```
