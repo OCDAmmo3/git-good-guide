@@ -1,0 +1,51 @@
+<!DOCTYPE hmtl>
+<html>
+  <head>
+    <title>Lab Day 1</title>
+    <style>
+body {
+  font-family:sans-serif;
+}
+h1 {
+  color:red;
+}
+strong {
+  background-color:blue;
+  color:lightGrey;
+  font-size:24px;
+  font-family:sans-serif;
+}
+    </style>
+  </head>
+  <body>
+    <script>
+      var songTime = prompt("What time of day does the pirate sing?");
+      while (!songTime) {
+        songTime = prompt("What time does he sing?!");
+      }
+      var songName = prompt("What is the pirate's favorite song?");
+      while (!songName) {
+        songName = prompt("What song?!");
+      }
+      var songWhy = prompt("Why does he sing that song?");
+      while (!songWhy) {
+        songWhy = prompt("Why?!");
+      }
+      var pirateName = prompt("What's the pirate's name?");
+      while (!pirateName) {
+        pirateName = prompt("What's his name?")
+      }
+
+    </script>
+    <header>
+    </header>
+    <main>
+      <h1>Class 1 Lab</h1>
+      <p style = "color:white;background-color:blue;font-family:sans-serif;">
+        So Captain <strong><script>document.write(pirateName)</script></strong> sings a song every single day at <strong><script>document.write(songTime)</script></strong>. He mostly sings <strong><script>document.write(songName)</script></strong> because <strong><script>document.write(songWhy)</script></strong>. That's awesome.
+      </p>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
